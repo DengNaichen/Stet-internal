@@ -122,8 +122,9 @@
                 return ["shortcut", "keyboard", "recorder", "dictation"]
             case .openAI:
                 return [
-                    "service", "access key", "sign in", "transcript", "improve", "rewrite", "groq", "openai",
-                    "apple intelligence", "foundation models", "local refine",
+                    "service", "access key", "sign in", "transcript", "improve", "rewrite", "openai",
+                    "apple intelligence", "foundation models", "local refine", "custom", "base url",
+                    "openai compatible",
                 ]
             case .dictionary:
                 return ["entries", "personal dictionary", "names", "brands"]
